@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const imageContainer = document.getElementById('image-container');
 const loader = document.getElementById('loader');
 
@@ -48,7 +47,7 @@ function displayPhotos() {
         setAttribute(img, {
             src: photo.urls.regular,
             alt: photo.alt_description,
-           title:photo.alt_description,
+            title: photo.alt_description,
         });
 
         // Event Listener, check when each is finished loading
@@ -80,7 +79,7 @@ window.addEventListener('scroll', () => {
 
 // On Load
 getPhotos();
-=======
+
 const videoElement = document.getElementById('video');
 const button = document.getElementById('button');
 
@@ -106,4 +105,3 @@ button.addEventListener('click', async () => {
 });
 
 selectMediaStream();
->>>>>>> f52ef002129ec317b9681633051ce2788c17962b
